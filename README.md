@@ -2,10 +2,17 @@
 
 Detecção e reconhecimento óptico de caracteres em placas de licença usando YOLO (You Only Look Once). Este projeto utiliza deep learning para identificar e extrair caracteres de placas veiculares.
 
+### Results [1/4]
 ![batch labels val](metrics/val_batch0_labels.jpg)
+
+### Model Avaliation [2/4]
 ![model val](metrics/model_val.png)
+
+### Matix difusion [3/4]
 ![matrix difusion](metrics/matrix_difusion.png)
-![box curve](metrics/BoxR_curve.jpg)
+
+### Box Curve [3/4]
+![box curve](metrics/BoxR_curve.png)
 
 ## 📋 Visão Geral
 
