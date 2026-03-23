@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocr_license_plate"
+version = "0.1.0"
+description = "OCR License Plate Detection using YOLO"
+requires-python = ">=3.8"
+dependencies = [
+    "ultralytics>=8.0.0",
+    "opencv-python>=4.8.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.scripts]
+ocr-license-plate = "license_plate.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+]

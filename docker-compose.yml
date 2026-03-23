@@ -1,0 +1,8 @@
+services:
+  project:
+    image: jupyter-sempiternus
+    volumes:
+      - .:/app
+    command: /venv/bin/python -m jupyter lab --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --allow-root
+    ports:
+      - "8888:8888"
